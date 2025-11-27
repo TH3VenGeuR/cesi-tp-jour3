@@ -1,5 +1,7 @@
 # cesi-tp-jour3
 0/ Sur une machine debian SANS INTERFACE GRAPHIQUE, installer docker
+
+
 &nbsp;=> https://docs.docker.com/engine/install/debian/
 
 1/ Valider que docker est bien fonctionnel avec la commande 
@@ -13,6 +15,8 @@ docker run hello-world
 (les identifiants : robot$cesi+students / xjG41eNqeadnAU1vxGDtJWfygyeTnT5l) 
 
 4/ Installer une seconde vm debian avec docker 
+
+
 &nbsp;=> curl https://get.docker.com |bash
 
 5/ Mettre les 2 VM Debian en cluster "Swarm" 
