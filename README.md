@@ -12,5 +12,8 @@ docker run hello-world
 
 4/ Installer une seconde vm debian avec docker 
 
-5/ Conteneuriser l'application HA-DEMO et l'envoyer dans le registry harbor harbor.serverzenith.com:8443/cesi/<nomEtPrénom>/ha-demo-app:<dateDuJour>. Tout le nécessaire se trouve dans le dossier "HA-DEMO"
+5/ Mettre les 2 VM Debian en cluster "Swarm" 
 
+6/ Conteneuriser l'application HA-DEMO et l'envoyer dans le registry harbor harbor.serverzenith.com:8443/cesi/<nomEtPrénom>/ha-demo-app:<dateDuJour>. Tout le nécessaire se trouve dans le dossier "HA-DEMO"
+
+7/ Lancer 2 réplicas de l'application ha-demo sur le cluster "swarm"
