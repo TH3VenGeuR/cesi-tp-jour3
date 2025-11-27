@@ -17,3 +17,5 @@ docker run hello-world
 6/ Conteneuriser l'application HA-DEMO et l'envoyer dans le registry harbor harbor.serverzenith.com:8443/cesi/<nomEtPrénom>/ha-demo-app:<dateDuJour>. Tout le nécessaire se trouve dans le dossier "HA-DEMO"
 
 7/ Lancer 2 réplicas de l'application ha-demo sur le cluster "swarm"
+
+8/ sur une 3e vm, installer et configurer un load balancer haproxy, pour répartir la charge entre nos 2 applications "ha-demo"
