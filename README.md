@@ -1,8 +1,6 @@
 # cesi-tp-jour3
-0/ Sur une machine debian SANS INTERFACE GRAPHIQUE, installer docker
-
-
-&nbsp;=> https://docs.docker.com/engine/install/debian/
+0/ Sur une machine debian SANS INTERFACE GRAPHIQUE, installer docker  
+=> https://docs.docker.com/engine/install/debian/
 
 1/ Valider que docker est bien fonctionnel avec la commande 
 ```bash
@@ -14,10 +12,8 @@ docker run hello-world
 3/ Une fois l'image existante, la pousser dans le registre : harbor.serverzenith.com:8443/cesi/<nomEtPrénom>/joke-app:<dateDuJour>
 (les identifiants : robot$cesi+students / xjG41eNqeadnAU1vxGDtJWfygyeTnT5l) 
 
-4/ Installer une seconde vm debian avec docker 
-
-
-&nbsp;=> curl https://get.docker.com |bash
+4/ Installer une seconde vm debian avec docker   
+=> curl https://get.docker.com |bash
 
 5/ Mettre les 2 VM Debian en cluster "Swarm" 
 
