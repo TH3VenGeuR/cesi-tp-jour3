@@ -1,12 +1,12 @@
 # cesi-tp-jour3
-0/ Sur une machine debian SANS INTERFACE GRAPHIQUE, installer docker  
+0/ Sur une machine virtuelle debian SANS INTERFACE GRAPHIQUE, installer docker  
 => https://docs.docker.com/engine/install/debian/
 
 1/ Valider que docker est bien fonctionnel avec la commande 
 ```bash
 docker run hello-world
 ```
-2/ Faire une image docker pour faire tourner le script "joke.sh"
+2/ Faire une image docker pour faire tourner le script "joke.sh"  
 2.1/ S'assurer que l'image fonctionne
 
 3/ Une fois l'image existante, la pousser dans le registre : harbor.serverzenith.com:8443/cesi/<nomEtPrénom>/joke-app:<dateDuJour>
