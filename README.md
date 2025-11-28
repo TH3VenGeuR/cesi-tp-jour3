@@ -9,7 +9,7 @@ docker run hello-world
 2/ Faire une image docker pour faire tourner le script "joke.sh"  
 2.1/ S'assurer que l'image fonctionne
 
-3/ Une fois l'image existante, la pousser dans le registre : harbor.serverzenith.com:8443/cesi/<nomEtPrénom>/joke-app:<dateDuJour>
+3/ Une fois l'image existante, la pousser dans le registre : harbor.serverzenith.com/cesi/<nomEtPrénom>/joke-app:<dateDuJour>
 (les identifiants : robot$cesi+students / w8ce5WzOeA8WfdcjvBel3wfslhjicIAy) 
 
 4/ Installer une seconde vm debian avec docker   
