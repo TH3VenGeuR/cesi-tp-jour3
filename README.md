@@ -10,7 +10,7 @@ docker run hello-world
 2.1/ S'assurer que l'image fonctionne
 
 3/ Une fois l'image existante, la pousser dans le registre : harbor.serverzenith.com:8443/cesi/<nomEtPrénom>/joke-app:<dateDuJour>
-(les identifiants : robot$cesi+students / xjG41eNqeadnAU1vxGDtJWfygyeTnT5l) 
+(les identifiants : robot$cesi+students / w8ce5WzOeA8WfdcjvBel3wfslhjicIAy) 
 
 4/ Installer une seconde vm debian avec docker   
 => curl https://get.docker.com |bash
